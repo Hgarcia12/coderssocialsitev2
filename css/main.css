@@ -1,0 +1,124 @@
+body{
+  background-color:salmon;
+}
+nav{
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+ul{
+  list-style: none;
+  display: table-row;
+  margin: 0;
+  padding: 0;
+  background: #282828;
+  color: #fff;
+}
+
+li{
+  position: relative;
+  height: 55px;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: arial;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  transition: background .4s ease;
+}
+
+li:hover{
+  background: salmon;
+  transition: background .4s ease;
+}
+a {
+	color:#fff;
+	text-decoration: none;
+}
+form{
+  margin-top: 100px;
+
+}
+#submit {
+  background: #282828;
+  color:white;
+  border-style: outset;
+  border-color: salmon;
+  border-radius: 20px;
+  height: 30px;
+  width: 100px;
+  font: bold 15px arial, sans-serif;
+}
+#submit:hover {
+  background: salmon;
+  color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+}
+#boxed_1 {
+  border:4px solid black;
+  width: 500px;
+  height: 55px;
+  text-align: center;
+  top:215px;
+  left:6px;
+  position:absolute;
+  }
+  #boxed_2 {
+    border: 4px solid black;
+    width: 500px;
+    height: 55px;
+    text-align: center;
+    top: 276px;
+    left: 6px;
+    position: absolute;
+  }
+  #con_1 {
+    text-align: center;
+    font-family: arial;
+    top: 150px;
+    left: 6px;
+    position: absolute;
+  }
+  #con_2 {
+    text-align: center;
+    font-family: arial;
+    top: 190px;
+    left:6px;
+    position: absolute;
+  }
+  #h_mail {
+    text-align: center;
+    font-family: arial;
+    top: 170px;
+    left: 6px;
+    position: absolute;
+
+  }
+  #j_mail {
+    text-align: center;
+    font-family: arial;
+    top: 190px;
+    left: 6px;
+    position: absolute;
+  }
+  #hed_1 {
+    font-family: arial;
+    top: 80px;
+    left: 6px;
+    position: absolute;
+  }
+  #password {
+  left:81px;
+  position:absolute;
+}
+#reset-link {
+  left:258px;
+  position:absolute;
+}
