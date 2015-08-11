@@ -1,0 +1,123 @@
+nav{
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+ul{
+  list-style: none;
+  display: table-row;
+  margin: 0;
+  padding: 0;
+  background: #282828;
+  color: #fff;
+}
+
+li{
+  position: relative;
+  height: 55px;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: arial;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  transition: background .4s ease;
+}
+
+li:hover{
+  background: salmon;
+  transition: background .4s ease;
+}
+a {
+	color:#fff;
+	text-decoration: none;
+}
+form{
+  margin-top: 100px;
+
+}
+html,
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  background-color: salmon;
+}
+
+/* border-box */
+.search-container *,
+.search-container *:after,
+.search-container *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* search bar focus */
+.search-container *:focus {
+  background: #fbfbfb;
+  color: black;
+  outline: 0;
+}
+
+/* search bar container */
+.search-container {
+  display: table;
+  position: relative;
+  width: 51px;
+}
+
+/* search icon button */
+.search-icon-btn {
+  background-color: salmon;
+  border: 1px solid black;
+  display: table-cell;
+  height: 50px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 50px;
+  z-index: 2;
+}
+
+/* search bar input container */
+.search-input {
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+
+/* search bar input */
+.search-input input.search-bar {
+  border: 1px solid #cccccc;
+  height: 50px;
+  padding: 0px;
+  width: 50px;
+}
+.search-input input.search-bar:focus {
+  padding-left: 60px;
+  padding-right: 10px;
+  width: 200px;
+}
+
+/* transition effect */
+.search-input input.search-bar,
+.search-icon-btn {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* hover on search bar container */
+.search-container:hover > .search-input input.search-bar {
+  padding-left: 60px;
+  padding-right: 10px;
+  width: 200px;
+}
