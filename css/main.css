@@ -75,8 +75,8 @@ form{
     width: 500px;
     height: 55px;
     text-align: center;
-    top: 276px;
-    left: 6px;
+    top: 55px;
+    left: -4px;
     position: absolute;
   }
   #con_1 {
@@ -96,16 +96,16 @@ form{
   #h_mail {
     text-align: center;
     font-family: arial;
-    top: 170px;
-    left: 6px;
+    top: 35px;
+    left: -1px;
     position: absolute;
 
   }
   #j_mail {
     text-align: center;
     font-family: arial;
-    top: 190px;
-    left: 6px;
+    top: 55px;
+    left: -1px;
     position: absolute;
   }
   #hed_1 {
